@@ -3,9 +3,9 @@ bool StopLight;  //this will tell us if the stop light is on or off
 int SensorVal, ButtonVal;
 
 //Two standard ways of defining pin variables.
-#define REDLIGHT = 13;
-#define YELLOWLIGHT = 12;
-#define GREENLIGHT = 11;
+#define REDLIGHT 13;
+#define YELLOWLIGHT 12;
+#define GREENLIGHT 11;
 const int Buzzer = 10, Button = 7;
 
 const int PhotoResistorPin = A0;
